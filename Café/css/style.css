@@ -27,7 +27,7 @@ figure{
 .logo {
     position: absolute;
     top: 20px;
-    left: 400px;
+    left: 250px;
     z-index: 10;
 }
 .foto1 {
@@ -100,7 +100,7 @@ section iframe {
     z-index:100;
     width: 230px;
     top: 1800px;
-    left: 500px;
+    left: 350px;
     padding: 30px;
     background-color: brown;
 }
@@ -132,7 +132,7 @@ section iframe {
     padding: 0px;
 }
 .text1 {
-    width: 220px;
+    width: 226px;
 }
 .text1, textarea {
     
