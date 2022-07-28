@@ -25,19 +25,20 @@ body{
 }
 
 nav{
-    width: 100%;
+    max-width: 100%;
     margin: 0px;
     background-color: #63BF1D;
     color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 50px;
+    min-height: 70px;
+    padding-left: 20px;
 }
 
-.namepage, h1{
-    font-size: 30px;
-    padding-left: 20px;
+.namepage{
+    font-size: 40px;
+    color: white;
 }
 
 .button-menu, ul, li{
@@ -45,7 +46,6 @@ nav{
     flex-direction: row;
     padding: 0px 4px 0px 20px;
     font-size: 25px;
-    
 }
 
 .start-image {
@@ -58,8 +58,8 @@ nav{
     z-index: 10;
     color: #ffffff;
     font-size: 80px;
-    top: 300px;
-    right: 210px;
+    top: 255px;
+    right: 150px;
 }
 
 article{
@@ -70,9 +70,8 @@ article{
 
 .box-two-column{
     width: 65%;
-    padding: 60px 20px;
+    padding: 60px 20px 0px 20px;
     display: flex;
-    align-items: right;
     justify-content: space-between;
     flex-direction: column;
 }
@@ -109,20 +108,20 @@ article{
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 35px;
     padding: 30px 0px;
 }
 
 h4{
-    font-size: 25px;
+    text-align: left;
+    font-size: 30px;
     padding: 10px 0px;
 }
 
 p{
-    padding-bottom: 20px;
     width: 90%;
     text-align: left;
-    font-size: 15px;
+    font-size: 20px;
     padding: 30px 0px;
 }
 
@@ -132,7 +131,6 @@ p{
 
 q{
     font-size: 50px;
-  
 }
 
 cite{
@@ -140,6 +138,32 @@ cite{
     font-size: 20px;
 }
 
+.contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 75px;
+    min-height: 400px;
+}
+
+button{
+    width: 90%;
+    background-color: #63BF1D;
+    font-size: 35px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #63BF1D;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: white;
+}
 
 
    
