@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    width: 1092px;
+    height: 2556px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+body{
+    width: 953px;
+}
+
+nav{
+    background-color: #003650;
+    width: 953px;
+    height: 80px;
+    color: #ffffff;
+}
+
+nav ul li{
+    color: black;
+    display: flex;
+}
+
+header{
+    height: 540px;
+}
+
+.img-header{
+    width: 953px;
+    height: 540px;
+}
