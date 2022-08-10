@@ -5,7 +5,7 @@
     list-style-type: none;
     max-width: 100%;
     min-height: 100%;
-    font-size: 12px;
+    font-size: 15px;
     font-family: sans-serif;      
 }
 
@@ -28,15 +28,14 @@ nav{
 .title-page{
    color: white;
    padding-left: 60px;
-   font-size: 30px;
+   font-size: 25px;
    font-style: italic;
    display: flex;
    align-items: center;
 }
 
 .nav-options {
-    display: flex;
-   
+    display: flex; 
 }
 
 li{
@@ -45,8 +44,7 @@ li{
     font-style: italic;
     display: flex;
     align-items: center;
-    padding-right: 60px;
-    
+    padding-right: 60px; 
 }
 
 header{
@@ -63,10 +61,10 @@ header{
 .text-header{
     position: relative;
     background-color: rgb(255, 255, 255, 0.7);
-    min-height: 150px;
-    max-width: 280px;
-    top: 250px;
-    left: 600px;
+    min-height: 170px;
+    max-width: 300px;
+    top: 289px;
+    left: 581px;
     padding: 20px;
 }
 
@@ -78,4 +76,75 @@ header{
 
 .text-header p{
     font-style: italic;
+}
+
+.content-start{
+    min-height: 311px;
+    max-width: 953px;
+    background-color: #ebebeb;
+}
+
+.content-start h2{
+    padding:  83px 157px 20px 157px; 
+    font-size: 25px;
+    font-style: italic;
+}
+
+.content-start p{
+    padding:  10px 157px 83px 157px;
+    font-style: italic;
+}
+
+.content-center{
+    max-width: 953px;
+    min-height: 595px;
+    background-color: #003650;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-center h2{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.flexbox1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 807px;
+    min-height: 426px;
+    font-style: italic;
+  
+}
+
+.first-box{ 
+    min-height: 364px;
+    max-width: 158px;
+    padding-right: 58.3px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.second-box{
+    min-height: 364px;
+    max-width: 158px; 
+    padding-right: 58.3px;
+}
+
+.third-box{
+    min-height: 364px;
+    max-width: 158px; 
+    padding-right: 58.3px;
+}
+
+.fouth-box{
+    min-height: 364px;
+    max-width: 158px; 
 }
