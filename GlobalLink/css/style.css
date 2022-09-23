@@ -144,38 +144,93 @@ h3{
     padding-right: 58.3px;
 }
 
-.fouth-box{
+.fourth-box{
     min-height: 364px;
     max-width: 158px; 
 }
 
 .content-end{
     max-width: 953px;
-    min-height: 595px;
+    min-height: 435px;
+    background-color: #ebebeb;  
     color: black;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: #ebebeb;
 }
 
 .content-end h2{ 
     font-size: 25px;
     font-style: italic;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
-p{
+.content-end p{ 
     font-style: italic;
+    padding-bottom: 35px;
 }
-.flex-box2{
+
+.flexbox2{
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
-    max-width: 807px;
-    min-height: 426px;
+    max-width: 800px;
+    min-height: 160px;
+    
+  
+}
+
+.first-box2{ 
+    min-height: 160px;
+    max-width: 160px;
+    padding-right: 53px;
+    
+}
+
+.second-box2{ 
+    min-height: 160px;
+    max-width: 160px;
+    padding-right: 53px;
+}
+
+.third-box2{ 
+    min-height: 160px;
+    max-width: 162px;
+    padding-right: 53px;
+}
+
+.fourth-box2{ 
+    min-height: 160px;
+    max-width: 160px;
+    
+}
+
+.contact{
+    min-height: 554px ;
+    max-width: 953px;
+    background-color: #003650;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
+.flexbox3{
+    min-height: 400px;
+    max-width: 805px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact-text{
+    min-height: 402px;
+    max-width: 305px;
+}
+.maps{
+    min-height: 402px;
+    max-width: 402px;
+}
